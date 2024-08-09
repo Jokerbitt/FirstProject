@@ -3,6 +3,7 @@ from tkinter import messagebox
 import re
 import random
 from datetime import datetime
+from testscript import sayhello
 
 # Initialer Wert für den BatchCounter
 batch_counter = 1
@@ -105,6 +106,18 @@ def generate_serial_number():
     except ValueError:
         messagebox.showerror("Eingabefehler", "Bitte geben Sie gültige Zahlen ein!")
 
+print("hi")
+
+
+def print_hi_two_times():
+    print("hi")
+    print("hi")
+
+print_hi_two_times()
+sayhello()
+
+# print("hi")
+ # print("hi")
 
 # Hauptfenster erstellen
 root = tk.Tk()
